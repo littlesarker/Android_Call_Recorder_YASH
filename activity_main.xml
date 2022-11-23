@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:id="@+id/activity_main"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/text"
+        android:textSize="25sp"
+        android:layout_marginTop="22dp"
+        android:layout_centerHorizontal="true"
+        android:textStyle="bold"
+        android:textAppearance="@style/ShapeAppearance.Material3.Corner.Large"
+        android:text="Auto call Recorder"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+
+
+    <ImageView
+        android:src="@drawable/record"
+        android:layout_marginTop="15dp"
+        android:layout_alignParentStart="true"
+        android:layout_below="@id/text"
+        android:id="@+id/imageview"
+        android:layout_width="match_parent"
+        android:layout_height="300dp"/>
+
+
+
+    <ToggleButton
+        android:id="@+id/toggle_Btn"
+        android:layout_marginTop="50dp"
+        android:layout_below="@id/imageview"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+
+        />
+
+</RelativeLayout>
